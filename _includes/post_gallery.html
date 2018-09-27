@@ -1,0 +1,30 @@
+<!-- Blog -->
+<div class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section-header text-center">
+                <h6 class="section-subtitle">GET UPDATED BY</h6>
+                <h2 class="section-title">Latest Blog Posts</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row margin-balance">
+              {% for post in site.posts limit:3 %}
+              <div class="col-lg-4 col-md-6">
+                  <article class="post-grid">
+                    <div class="post-thumb">
+                      <a href="#"><img src="assets/images/blog/thumb-1.jpg" class="img-fluid" alt=""></a>
+                    </div>
+                    <div class="post-body">
+                      <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+                      <h4><a href="#">{{ post.title }}</a></h4>
+                      <p>{{ post.excerpt }}</p>
+                    </div>
+                  </article>
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- Blog End -->

@@ -1,0 +1,34 @@
+<!-- Banner -->
+<div class="banner banner-bg" id="cta">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="banner-slider owl-carousel">
+                {% for item in site.data.slider.home_banner %}
+                <div class="banner-item">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="left-part">
+                        <div class="banner-content">
+                          <h1>{{ item.title }}</h1>
+                          <h6>{{ item.text }}</h6>
+                          <a href="{{ item.link }}" class="button">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="right-part">
+                        <div class="banner-image">
+                          <img src="/assets/images/banner/Mockup.svg" class="pull-right" height="250px" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner End -->

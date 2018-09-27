@@ -1,0 +1,73 @@
+{% include call-to-action.html %}  
+
+<footer>
+    <div class="footer-bg call-to-action-bg">
+      <div class="footer-widget section-padding-120">
+        <div class="container">
+          <div class="row margin-balance">
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-logo">
+                    <a href="#"><img src="assets/images/logo.svg" width="200" class="img-fluid" alt="Brand Logo"></a>
+                  </div><br>              
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="widget contact-widget">
+                    <h4 class="widget-title">Contact Us</h4>
+                    <div class="widget-inner">
+                      <ul>
+                        <li class="address">{{ site.address_line1 }} <span>{{ site.address_line2 }}</span></li>
+                        <li class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                        <li class="phone"><a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="widget widget_nav_menu">
+                <h4 class="widget-title">Links</h4>
+                <div class="widget-inner">
+                  <ul>
+                      {% for item in site.data.navigation.main_menu %}
+                        {% if item.footer == 2 %}
+                          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endif %}
+                      {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="widget subscribe-widget widget_mc4wp_form_widget">
+                <h4 class="widget-title">Newsletter</h4>
+                <div class="widget-inner">
+                  <p>Subscribe our newsletter to stay in touch!</p>
+                  <form class="subscribtion-form">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email address">
+                    </div>
+                    <button type="submit" class="button primary-bg">Subscribe</button>
+                    <p class="newsletter-error">Please enter your email</p>
+                    <p class="newsletter-success">Thank you for subscribing!</p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="copyright-text">Copyright 2018 &copy; Matson Technologies LLC, All right reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- Back to Top -->
+    <div class="backtotop">
+      <span class="ti-angle-up"></span>
+    </div>
+    <!-- Back to Top End -->
+  </footer>

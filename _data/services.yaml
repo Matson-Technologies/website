@@ -1,0 +1,25 @@
+services_overview:
+  - title: Web Development 
+    text: Lorem ipsum dolor sit amet
+    link: /link
+    img: web-dev
+  - title: Responsive Design
+    text: Lorem ipsum dolor sit amet2
+    link: /link2
+    img: Responsive
+  - title: Custom IT Solutions
+    text: Lorem ipsum dolor sit amet2
+    link: /link2
+    img: solutions
+  - title: Brand Identity
+    text: Lorem ipsum dolor sit amet2
+    link: /link2
+    img: branding
+  - title: Data Analytics
+    text: Lorem ipsum dolor sit amet2
+    link: /link2
+    img: data
+  - title: Mobile Content
+    text: Lorem ipsum dolor sit amet2
+    link: /link2
+    img: mobile
