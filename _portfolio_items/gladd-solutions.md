@@ -2,7 +2,8 @@
 image: assets/images/case/thumb-1.jpg
 title: Gladd Solutions
 category: Website, Cloud Services
-link: gladd-solutions
+url: gladd-solutions
+layout: default
 ---
 ## Gladd Solutions
 

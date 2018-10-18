@@ -1,25 +1,25 @@
 services_overview:
   - title: Web Development 
-    text: We specialize in building awesome websites and applications. From planning to production, you can be confident that you and your customers will love your new website!
+    text: We specialize in building awesome websites. From planning to production, you can be confident that you and your customers will love your new website!
     link: /link
     img: web-dev
   - title: Responsive Design
-    text: Mobile devices now account for over half of all web traffic! We take a "mobile-first" approach so you know that your website will look great on whatever devices your customers use.
+    text: Mobile devices now account for over half of all web traffic. We take a "mobile-first" approach so your your website will look great on any device.
     link: /link2
     img: responsive
   - title: Custom IT Solutions
-    text: Looking at moving your IT infrastucture to the cloud? Tired of managing your own email server? Look no further, Matson Technologies can work with you to provide you will setup and support for all your IT needs.
+    text: Looking at moving your IT infrastucture to the cloud? We can partner with you for all your IT Infrastructure needs.
     link: /link2
     img: solutions
   - title: Brand Identity
-    text: Maybe you need more than just a website, you want to overhall your business' marketing efforts. With the help of trusted experts in the field, we can relaunch your brand online and in person.
+    text: Maybe you need more than just a website, you want to overhall your business' marketing message. With the help of trusted experts in the field, we can relaunch your brand both on and offline.
     link: /link2
     img: branding
   - title: Data Analytics
-    text: Maybe you've heard of Google Analytics, but sometimes the dashboard can be overwhelming. Add to that the various social media tracking tools and it can get out of control! We offer custom reporting solutions so you can quickly understand what you need to and get back to runing your business.
+    text: You've heard of big data, but how can you make it work for you? We can provide custom reporting solutions that give you the necessary infromation to make smarter business decisions.
     link: /link2
     img: data
   - title: Mobile Content
-    text: With phones becoming the primary way we consume content, maybe you are looking to launch an app, let's get in touch!
+    text: With phones becoming the primary way we consume content, maybe you are looking to launch an app. Let's get in touch!
     link: /link2
     img: mobile

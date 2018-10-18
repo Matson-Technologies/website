@@ -1,7 +1,10 @@
 main_menu:
-  - title: Link 1
-    url: /link.html
+  - title: About
+    url: /About
     footer: 1
+  - title: Link 3
+    url: /link3.html
+    footer: 2
   - title: Link 2
     url: /link2.html
     footer: 2

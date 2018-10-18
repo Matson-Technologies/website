@@ -16,13 +16,13 @@
               <div class="case-study-slider owl-carousel">
                 {% for portfolio in site.portfolio_items %}  
                 <div class="case-study">
-                  <a href="{{ portfolio.link }}" class="thumb">
+                  <a href="{{ portfolio.url }}" class="thumb">
                     <img src="{{ portfolio.image }}" class="img-fluid" alt="Case Thumb">
                   </a>
                   <div class="body">
-                    <h5><a href="{{ portfolio.link }}">{{ portfolio.title }}</a></h5>
+                    <h5><a href="{{ portfolio.url }}">{{ portfolio.title }}</a></h5>
                     <p>{{ portfolio.category }}</p>
-                    <a href="{{ portfolio.link }}" class="favourite"><i class="far fa-heart"></i></a>
+                    <a href="{{ portfolio.url }}" class="favourite"><i class="far fa-heart"></i></a>
                   </div>
                 </div>
                 {% endfor %}

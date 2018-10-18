@@ -34,7 +34,8 @@ baseurl:
 url: http://yourdomain.com/
 
 collections:
-  - portfolio_items
+  portfolio_items:
+    output: true
 #### Under the Hood Stuff #####
 
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
@@ -43,7 +44,7 @@ collections:
 markdown: rdiscount
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
-permalink: pretty
+permalink: /:categories/:title:output_ext
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
