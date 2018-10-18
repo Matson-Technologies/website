@@ -1,0 +1,34 @@
+
+      <!-- Case Study -->
+      <div class="case-study-bg section-padding-top">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section-header text-center white-text">
+                <h6 class="section-subtitle">Portfolio</h6>
+                <h2 class="section-title">Our Previous Work</h2>
+                <p class="section-subtext">Take a look at some of our previous work!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="case-study-slider owl-carousel">
+                {% for portfolio in site.portfolio_items %}  
+                <div class="case-study">
+                  <a href="{{ portfolio.link }}" class="thumb">
+                    <img src="{{ portfolio.image }}" class="img-fluid" alt="Case Thumb">
+                  </a>
+                  <div class="body">
+                    <h5><a href="{{ portfolio.link }}">{{ portfolio.title }}</a></h5>
+                    <p>{{ portfolio.category }}</p>
+                    <a href="{{ portfolio.link }}" class="favourite"><i class="far fa-heart"></i></a>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Case Study End -->
