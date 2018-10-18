@@ -5,12 +5,12 @@
       <div class="footer-widget section-padding-120">
         <div class="container">
           <div class="row margin-balance">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <div class="footer-logo">
                     <a href="#"><img src="/assets/images/logo.svg" width="200" class="img-fluid" alt="Brand Logo"></a>
                   </div><br>              
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <div class="widget contact-widget">
                     <h4 class="widget-title">Contact Us</h4>
                     <div class="widget-inner">
@@ -22,21 +22,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="widget widget_nav_menu">
-                <h4 class="widget-title">Resources</h4>
-                <div class="widget-inner">
-                  <ul>
-                      {% for item in site.data.navigation.main_menu %}
-                        {% if item.footer == 2 %}
-                          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                        {% endif %}
-                      {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
               <div class="widget subscribe-widget widget_mc4wp_form_widget">
                 <h4 class="widget-title">Newsletter</h4>
                 <div class="widget-inner">
