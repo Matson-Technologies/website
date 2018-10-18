@@ -1,25 +1,25 @@
 services_overview:
   - title: Web Development 
-    text: Lorem ipsum dolor sit amet
+    text: We specialize in building awesome websites and applications. From planning to production, you can be confident that you and your customers will love your new website!
     link: /link
     img: web-dev
   - title: Responsive Design
-    text: Lorem ipsum dolor sit amet2
+    text: Mobile devices now account for over half of all web traffic! We take a "mobile-first" approach so you know that your website will look great on whatever devices your customers use.
     link: /link2
     img: Responsive
   - title: Custom IT Solutions
-    text: Lorem ipsum dolor sit amet2
+    text: Looking at moving your IT infrastucture to the cloud? Tired of managing your own email server? Look no further, Matson Technologies can work with you to provide you will setup and support for all your IT needs.
     link: /link2
     img: solutions
   - title: Brand Identity
-    text: Lorem ipsum dolor sit amet2
+    text: Maybe you need more than just a website, you want to overhall your business' marketing efforts. With the help of trusted experts in the field, we can relaunch your brand online and in person.
     link: /link2
     img: branding
   - title: Data Analytics
-    text: Lorem ipsum dolor sit amet2
+    text: Maybe you've heard of Google Analytics, but sometimes the dashboard can be overwhelming. Add to that the various social media tracking tools and it can get out of control! We offer custom reporting solutions so you can quickly understand what you need to and get back to runing your business.
     link: /link2
     img: data
   - title: Mobile Content
-    text: Lorem ipsum dolor sit amet2
+    text: With phones becoming the primary way we consume content, maybe you are looking to launch an app, let's get in touch!
     link: /link2
     img: mobile
