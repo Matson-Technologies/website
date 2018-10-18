@@ -6,7 +6,7 @@ services_overview:
   - title: Responsive Design
     text: Mobile devices now account for over half of all web traffic! We take a "mobile-first" approach so you know that your website will look great on whatever devices your customers use.
     link: /link2
-    img: Responsive
+    img: responsive
   - title: Custom IT Solutions
     text: Looking at moving your IT infrastucture to the cloud? Tired of managing your own email server? Look no further, Matson Technologies can work with you to provide you will setup and support for all your IT needs.
     link: /link2
