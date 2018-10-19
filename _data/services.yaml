@@ -16,7 +16,7 @@ services_overview:
     link: /link2
     img: branding
   - title: Data Analytics
-    text: You've heard of big data, but how can you make it work for you? We can provide custom reporting solutions that give you the necessary infromation to make smarter business decisions.
+    text: You've heard of big data, but how can you make it work for you? We can provide custom reporting solutions that give you the necessary information to make smarter business decisions.
     link: /link2
     img: data
   - title: Mobile Content
